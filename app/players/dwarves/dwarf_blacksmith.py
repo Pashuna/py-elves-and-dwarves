@@ -11,9 +11,6 @@ class DwarfBlacksmith(Dwarf):
         super().__init__(nickname, favourite_dish)
         self._skill_level = skill_level
 
-    def get_name(self) -> str:
-        return self.nickname
-
     def get_rating(self) -> float:
         return self._skill_level
 
